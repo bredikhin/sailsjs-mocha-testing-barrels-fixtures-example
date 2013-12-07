@@ -14,9 +14,10 @@ before(function (done) {
     }
   }, function(err, sails) {
     if (err) return done(err);
-    fixtures = barrels.populate(function(err) {
+    barrels.populate(function(err) {
       done(err, sails);
-    }).objects;
+    })
+    fixtures = barrels.objects;
   });
 });
 

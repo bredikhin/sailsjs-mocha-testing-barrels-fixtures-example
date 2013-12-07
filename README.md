@@ -2,7 +2,7 @@
 
 ## Installation
 
-  `$ npm install`
+`$ npm install`
 
 ## Usage
 
