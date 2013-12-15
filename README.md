@@ -15,7 +15,7 @@ Use `npm run autotest` for auto-reloading with [Supervisor](https://npmjs.org/pa
 * [Sails.js](http://sailsjs.org/)
 * [Mocha](http://visionmedia.github.io/mocha/)
 * [Barrels](https://github.com/bredikhin/barrels/)
-
+* [Supervisor](https://npmjs.org/package/supervisor)
 
 ## License
 
