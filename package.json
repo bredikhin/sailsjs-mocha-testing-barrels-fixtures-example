@@ -5,11 +5,11 @@
   "description": "An example of Sails.js-project testing with Mocha and Barrels for fixtures",
   "dependencies": {
     "sails": "0.9.8",
-    "grunt": "0.4.1",
+    "grunt": "~0.4.1",
     "sails-memory": "~0.9.0",
     "sails-disk": "~0.9.0",
-    "ejs": "0.8.4",
-    "optimist": "0.3.4"
+    "ejs": "~0.8.4",
+    "optimist": "~0.3.4"
   },
   "devDependencies": {
     "mocha": "1.14.0",
@@ -28,8 +28,7 @@
     "url": "git://github.com/bredikhin/sailsjs-mocha-testing-barrels-fixtures-example.git"
   },
   "author": "Ruslan Bredikhin",
-  "license":
-  {
+  "license": {
     "type": "MIT",
     "url": "http://www.opensource.org/licenses/MIT"
   }
