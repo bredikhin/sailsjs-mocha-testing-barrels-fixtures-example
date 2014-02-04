@@ -1,5 +1,7 @@
 # An example of Sails.js-project testing with Mocha and Barrels for fixtures
 
+[![Build Status](https://travis-ci.org/bredikhin/sailsjs-mocha-testing-barrels-fixtures-example.png?branch=master)](https://travis-ci.org/bredikhin/sailsjs-mocha-testing-barrels-fixtures-example)
+
 ## Installation
 
 `$ npm install`
