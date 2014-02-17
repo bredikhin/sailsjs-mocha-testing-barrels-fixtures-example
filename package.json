@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "description": "An example of Sails.js-project testing with Mocha and Barrels for fixtures",
   "dependencies": {
-    "sails": "0.9.8",
+    "sails": "~0.9.9",
     "grunt": "~0.4.1",
     "sails-memory": "~0.9.0",
     "sails-disk": "~0.9.0",
@@ -12,7 +12,7 @@
     "optimist": "~0.6.0"
   },
   "devDependencies": {
-    "mocha": "1.14.0",
+    "mocha": "~1.17.1",
     "barrels": "0.0.2",
     "supervisor": "0.5.6"
   },
