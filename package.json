@@ -6,15 +6,16 @@
   "dependencies": {
     "sails": "~0.9.9",
     "grunt": "~0.4.1",
-    "sails-memory": "~0.9.0",
+    "sails-memory": "~0.9.1",
     "sails-disk": "~0.9.0",
     "ejs": "~0.8.4",
-    "optimist": "~0.6.0"
+    "optimist": "~0.6.0",
+    "supervisor": "~0.5.6"
   },
   "devDependencies": {
     "mocha": "~1.17.1",
-    "barrels": "0.0.2",
-    "supervisor": "0.5.6"
+    "barrels": "~0.0.2",
+    "supervisor": "~0.5.7"
   },
   "scripts": {
     "start": "node app.js",
