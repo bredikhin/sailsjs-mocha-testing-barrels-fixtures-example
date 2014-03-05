@@ -14,7 +14,7 @@
   },
   "devDependencies": {
     "mocha": "~1.17.1",
-    "barrels": "~0.0.2",
+    "barrels": "~0.0.3",
     "supervisor": "~0.5.7"
   },
   "scripts": {
