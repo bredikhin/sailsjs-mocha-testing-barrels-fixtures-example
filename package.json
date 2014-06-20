@@ -12,7 +12,7 @@
     "optimist": "~0.6.1"
   },
   "devDependencies": {
-    "mocha": "^1.19.0",
+    "mocha": "^1.20.1",
     "barrels": "^0.0.3",
     "supervisor": "^0.6.0"
   },
