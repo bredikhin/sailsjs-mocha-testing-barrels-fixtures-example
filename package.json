@@ -1,8 +1,8 @@
 {
   "name": "sailsjs-mocha-testing-barrels-fixtures-example",
   "private": true,
-  "version": "0.0.0",
-  "description": "a Sails application",
+  "version": "0.10.0",
+  "description": "An example of Sails.js-project testing with Mocha and Barrels for fixtures",
   "keywords": [],
   "dependencies": {
     "sails": "~0.10.3",
@@ -23,19 +23,23 @@
     "grunt-contrib-less": "0.11.1",
     "grunt-contrib-coffee": "~0.10.1"
   },
+  "devDependencies": {
+    "barrels": "0.0.6",
+    "mocha": "^1.21.4"
+  },
   "scripts": {
     "start": "node app.js",
-    "debug": "node debug app.js"
+    "debug": "node debug app.js",
+    "test": "PORT=9999 NODE_ENV=test mocha -R spec -b --recursive"
   },
   "main": "app.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/rbr/sailsjs-mocha-testing-barrels-fixtures-example.git"
+    "url": "git://github.com/bredikhin/sailsjs-mocha-testing-barrels-fixtures-example.git"
   },
-  "author": "rbr",
-  "license": "",
-  "devDependencies": {
-    "barrels": "0.0.6",
-    "mocha": "^1.21.4"
+  "author": "Ruslan Bredikhin",
+  "license": {
+    "type": "MIT",
+    "url": "http://www.opensource.org/licenses/MIT"
   }
 }
