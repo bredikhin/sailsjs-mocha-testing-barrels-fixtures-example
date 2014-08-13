@@ -10,8 +10,9 @@ before(function (done) {
     log: {
       level: 'error'
     },
-    adapters: {
-      default: 'test'
+    models: {
+      connection: 'test',
+      migrate: 'drop'
     }
   }, function(err, sails) {
     if (err)
