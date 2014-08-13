@@ -1,7 +1,7 @@
 {
   "name": "sailsjs-mocha-testing-barrels-fixtures-example",
   "private": true,
-  "version": "0.0.1",
+  "version": "0.9.1",
   "description": "An example of Sails.js-project testing with Mocha and Barrels for fixtures",
   "dependencies": {
     "sails": "^0.9.17",

@@ -1,4 +1,4 @@
-# An example of Sails.js-project testing with Mocha and Barrels for fixtures
+# An example of Sails.js-project testing with Mocha and Barrels for fixtures (Sails v0.9.x)
 
 [![Build Status](https://travis-ci.org/bredikhin/sailsjs-mocha-testing-barrels-fixtures-example.png?branch=master)](https://travis-ci.org/bredikhin/sailsjs-mocha-testing-barrels-fixtures-example)
 [![Dependency Status](https://gemnasium.com/bredikhin/sailsjs-mocha-testing-barrels-fixtures-example.png)](https://gemnasium.com/bredikhin/sailsjs-mocha-testing-barrels-fixtures-example)
