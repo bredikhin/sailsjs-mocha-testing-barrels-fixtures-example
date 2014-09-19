@@ -1,7 +1,7 @@
-var assert = require('assert')
-  , Sails = require('sails')
-  , barrels = require('barrels')
-  , fixtures;
+var assert = require('assert');
+var Sails = require('sails');
+var Barrels = require('barrels');
+var fixtures;
 
 // Global before hook
 before(function (done) {
@@ -17,12 +17,17 @@ before(function (done) {
   }, function(err, sails) {
     if (err)
       return done(err);
+
     // Load fixtures
+    var barrels = new Barrels();
+
+    // Save original objects in `fixtures` variable
+    fixtures = barrels.data;
+
+    // Populate the DB    
     barrels.populate(function(err) {
       done(err, sails);
     });
-    // Save original objects in `fixtures` variable
-    fixtures = barrels.objects;
   });
 });
 

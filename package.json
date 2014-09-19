@@ -24,7 +24,7 @@
     "grunt-contrib-coffee": "~0.10.1"
   },
   "devDependencies": {
-    "barrels": "0.0.6",
+    "barrels": "^1.0.1",
     "mocha": "^1.21.4",
     "sails-memory": "^0.10.2"
   },
