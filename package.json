@@ -25,6 +25,7 @@
   },
   "devDependencies": {
     "barrels": "^1.4.0",
+    "freeport": "^1.0.4",
     "mocha": "^2.0.1",
     "sails-memory": "^0.10.3",
     "should": "^4.4.0",
