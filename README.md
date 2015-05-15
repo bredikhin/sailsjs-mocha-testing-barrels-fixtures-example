@@ -199,6 +199,18 @@ you are free to do a more complex analysis of the response. Check out the
 [Supertest API](https://github.com/tj/supertest) for more helpers and
 assertions.
 
+## Wallaby.js
+Support is included for [Wallaby.js](http://wallabyjs.com/) in the form of
+a bootstrap in the `./wallaby.js` file in the root that replicates what the
+`./test/bootstrap.test.`js does for normal mocha.
+
+Wallaby.js is an intelligent test runner for JavaScript that continuously runs
+your tests. It reports code coverage and other results directly to your code
+editor immediately as you change your code. Wallaby.js uses various tricks to
+run your tests as fast as possible, such as dependency analysis to only
+execute tests affected by your code changes and parallel test execution.
+
+
 ## Conclusion
 
 [Sails.js](http://sailsjs.org/) is a very powerful tool that can help you
